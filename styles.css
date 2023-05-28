@@ -287,3 +287,88 @@ body{
 .but-pagoservicio:hover{
     opacity: 10%;
 }
+
+.caseSaludFinanciera{
+    background-color: black;
+    height: 100%;
+    width: 300px;
+    background-image: url(./img/SaludFinanciera.jpeg);
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 7px;
+    position: relative;
+}
+.butSaludFinanciera{
+    background-color: black;
+    opacity: 0%;
+    height: 38px;
+    width: 187px;
+    bottom: 100px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    border-style: none;
+    transition: 0.3s;
+}
+.butSaludFinanciera:hover{
+    opacity: 10%;
+}
+#but1SaludFinanciera{
+    height: 37px;
+    width: 265px;
+    top:555px;    
+    left: 13px;
+}
+
+.case-agendarcita{
+    background-color: black;
+    height: 100%;
+    width: 300px;
+    background-image: url(./img/AgendarCita.png);
+    background-size: 100% 100%;    
+    background-repeat: no-repeat;
+    background-position: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 7px;
+    position: relative;
+}
+.but-agendarcita{
+    background-color: black;
+    opacity: 0;
+    height: 38px;
+    width: 187px;
+    bottom: 100px;
+    cursor: pointer;
+    position: absolute;
+    border-radius: 5px;
+    border-style: none;
+}
+
+#but1-agendarcita{
+    height: 37px;
+    width: 73px;
+    top: 480px;    
+    left: 78px;
+}
+
+#but2-agendarcita{
+    height: 37px;
+    width: 143px;
+    top: 543px;    
+    left: 17px;
+}
+
+#but3-agendarcita{
+    height: 37px;
+    width: 108px;
+    top: 543px;    
+    left: 178px;
+}
+
+.but-agendarcita:hover{
+    opacity: 10%;
+}
