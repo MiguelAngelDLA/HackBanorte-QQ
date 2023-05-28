@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    justify-content: center;
+    height: 625px;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.celular {
+    background-color: black;
+    height: 100%;
+    width: 330px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.pantalla-celular{
+    background-color: white;
+    height: 90%;
+    width: 90%;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.notification-bar{
+    height: 10%;
+    width: 100%;
+    background-color: blue;
+}
+
+.card-bar{
+    height: 25%;
+    width: 100%;
+    background-color: orange;
+}
+
+.quick-actions{
+    height: 25%;
+    width: 100%;
+    background-color: orange;
+}
